@@ -1,6 +1,0 @@
-name: Zenty
-version: '${project.version}'
-main: lol.vifez.zenty.Zenty
-author: Vifez
-softdepend:
-  - PlaceholderAPI

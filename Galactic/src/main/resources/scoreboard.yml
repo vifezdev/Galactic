@@ -1,0 +1,10 @@
+title: "&d&lGalactic &7| &dHub"
+lines:
+  - "&7&m---------------------"
+  - "&fName: &d%player_name%"
+  - "&fPing: &d%player_ping%ms"
+  - "&r"
+  - "&fOnline: &d%server_online%"
+  - "&f"
+  - "&7&otest.kiradev.cc"
+  - "&7&m---------------------"

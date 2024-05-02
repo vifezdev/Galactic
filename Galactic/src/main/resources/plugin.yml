@@ -1,0 +1,6 @@
+name: Galacitc
+version: '${project.version}'
+main: lol.vifez.hub.HubCore
+author: Vifez
+softdepend:
+  - PlaceholderAPI
