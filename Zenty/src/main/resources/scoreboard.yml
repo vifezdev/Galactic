@@ -1,0 +1,10 @@
+title: "&c&lVantagePvP &7| &cHub"
+lines: # Supports PlaceholderAPI
+  - "&7&m---------------------"
+  - "&fName: &c%player_name%"
+  - "&fPing: &c%player_ping%ms"
+  - "&r"
+  - "&fOnline: &c%server_online%"
+  - "&f"
+  - "&7&ovifez.lol"
+  - "&7&m---------------------"

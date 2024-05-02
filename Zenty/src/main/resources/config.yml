@@ -1,0 +1,43 @@
+double-jump:
+  power: 2.0
+
+ender-butt:
+  power: 2.0
+
+server-selector:
+  title: "&cServer Selector"
+  rows:
+    # Usage pattern: "Material, Durability, Name, Add Lore, Action Type, Action Value, Lore (if Add Lore is true)"
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - second-row:
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - DIAMOND_SWORD,0,"&cKitPvP",true,SERVER,"KitPvP",["&7Click here to connect to &cKitPvP"]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - BOW,0,"&cPractice",true,SERVER,"Practice",["&7Click here to connect to &cPractice"]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - FISHING_ROD,14,"&cHCF",true,SERVER,"HCF",["&7Click here to connect to &cHCF"]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+    - third-row:
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
+        - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
