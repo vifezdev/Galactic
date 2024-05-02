@@ -2,12 +2,10 @@ package lol.vifez.hub.util;
 
 /*
  *
- * HubCore is property of Kira Development
- * 15/11/2023
- * Author: Vifez
+ * Galactic is property of Vifez
+ * 1/13/2024
  *
  */
-
 public enum ItemDataColor {
     WHITE((short) 0),
     ORANGE((short) 1),

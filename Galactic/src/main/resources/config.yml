@@ -1,13 +1,14 @@
 double-jump:
   power: 2.0
 
+damage-enabled: true # Disable damage like fall damage, pvp etc
+
 ender-butt:
   power: 2.0
 
 server-selector:
   title: "&cServer Selector"
   rows:
-    # Usage pattern: "Material, Durability, Name, Add Lore, Action Type, Action Value, Lore (if Add Lore is true)"
     - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
     - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]
     - STAINED_GLASS_PANE,14,"&7",false,NONE,"",[]

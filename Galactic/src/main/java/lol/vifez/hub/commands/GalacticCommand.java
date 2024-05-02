@@ -1,7 +1,10 @@
 package lol.vifez.hub.commands;
 
 /*
- * Galactic is property of Kira-Development-Team
+ *
+ * Galactic is property of Vifez
+ * 1/13/2024
+ *
  */
 
 import co.aikar.commands.BaseCommand;

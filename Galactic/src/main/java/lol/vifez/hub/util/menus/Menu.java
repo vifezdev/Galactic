@@ -1,5 +1,12 @@
 package lol.vifez.hub.util.menus;
 
+/*
+ *
+ * Galactic is property of Vifez
+ * 1/13/2024
+ *
+ */
+
 import com.google.common.base.Preconditions;
 import lol.vifez.hub.HubCore;
 import org.bukkit.Bukkit;

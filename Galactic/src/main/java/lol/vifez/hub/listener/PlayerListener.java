@@ -1,7 +1,6 @@
 package lol.vifez.hub.listener;
 
 import lol.vifez.hub.HubCore;
-import lol.vifez.hub.util.C;
 import lol.vifez.hub.util.menus.impl.ServerSelectorMenu;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
@@ -10,6 +9,7 @@ import org.bukkit.entity.EnderPearl;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.ProjectileHitEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
@@ -18,10 +18,8 @@ import org.spigotmc.event.entity.EntityDismountEvent;
 
 /*
  *
- * HubCore is a property of Kira-Development-Team
+ * Galactic is property of Vifez
  * 1/13/2024
- * Coded by the founders of Kira-Development-Team
- * EmpireMTR & Vifez
  *
  */
 
@@ -72,7 +70,7 @@ public class PlayerListener implements Listener {
                 player.hidePlayer(players);
             }
 
-            C.sendMessage(player, "&cYou have toggled off player visibility!");
+            player.sendMessage("§cYou have toggled off player visibility!");
             player.getInventory().setItem(6, plugin.getItems().getPlayerVisibilityOff());
             player.updateInventory();
         } else if (event.getItem().isSimilar(plugin.getItems().getPlayerVisibilityOff())) {
@@ -80,7 +78,7 @@ public class PlayerListener implements Listener {
                 player.showPlayer(players);
             }
 
-            C.sendMessage(player, "&aYou have toggled on player visibility!");
+            player.sendMessage("§aYou have toggled on player visibility!");
             player.getInventory().setItem(6, plugin.getItems().getPlayerVisibilityOn());
             player.updateInventory();
         } else if (event.getItem().isSimilar(plugin.getItems().getServerSelector())) {
@@ -109,6 +107,13 @@ public class PlayerListener implements Listener {
     public void onPlayerQuit(PlayerQuitEvent event) {
         if (event.getPlayer().isInsideVehicle()) {
             event.getPlayer().getVehicle().remove();
+        }
+    }
+
+    @EventHandler
+    public void onEntityDamage(EntityDamageEvent event) {
+        if (event.getEntity() instanceof Player) {
+            event.setCancelled(true);
         }
     }
 }

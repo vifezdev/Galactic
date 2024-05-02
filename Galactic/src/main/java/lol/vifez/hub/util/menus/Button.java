@@ -1,5 +1,12 @@
 package lol.vifez.hub.util.menus;
 
+/*
+ *
+ * Galactic is property of Vifez
+ * 1/13/2024
+ *
+ */
+
 import com.google.common.base.Joiner;
 import com.google.common.collect.ImmutableList;
 import org.bukkit.Material;

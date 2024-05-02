@@ -1,5 +1,12 @@
 package lol.vifez.hub.util.menus.impl;
 
+/*
+ *
+ * Galactic is property of Vifez
+ * 1/13/2024
+ *
+ */
+
 import com.cryptomorin.xseries.XMaterial;
 import lol.vifez.hub.HubCore;
 import lol.vifez.hub.util.C;

@@ -2,10 +2,8 @@ package lol.vifez.hub.util;
 
 /*
  *
- * HubCore is a property of Kira-Development-Team
+ * Galactic is property of Vifez
  * 1/13/2024
- * Coded by the founders of Kira-Development-Team
- * EmpireMTR & Vifez
  *
  */
 

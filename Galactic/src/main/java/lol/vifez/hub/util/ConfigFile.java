@@ -13,11 +13,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Copyright (c) 2023 NotRemixed
- * <p>
- * Usage or redistribution of source code is permitted only if given
- * permission from the original author: NotRemixed
+/*
+ *
+ * Galactic is property of Vifez
+ * 1/13/2024
+ *
  */
 
 @Getter
@@ -59,7 +59,7 @@ public class ConfigFile {
         return 0;
     }
 
-    public boolean getBoolean(String path) {
+    public boolean getBoolean(String path, boolean b) {
         if (configuration.contains(path)) {
             return configuration.getBoolean(path);
         }
