@@ -1,3 +1,12 @@
-# vHub
+# Galactic
+Galactic is a simple ranks core developed by kira development.
 
-the hubcore used on VeluxPvP network
+# API's used:
+ - Assemble (Scoreboard API written by ThatKawaiiSam)
+ - MenuAPI (Menu API written by idk)
+ - Aikar Commands (Command API written by aikar)
+
+# Credits
+EmpireMTR - coded the base
+Vifez - Fixed some errors with the server selector adding sum shit and fixed other bugs
+Remixed - i remember he did sum util shit
