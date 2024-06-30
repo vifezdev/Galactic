@@ -10,3 +10,6 @@ Galactic is a simple ranks core developed by kira development.
 EmpireMTR - coded the base
 Vifez - Fixed some errors with the server selector adding sum shit and fixed other bugs
 Remixed - i remember he did sum util shit
+
+# Information
+This needs some work on the server selector system
